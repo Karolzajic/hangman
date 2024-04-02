@@ -13,7 +13,7 @@ public class java {
         String hiddenWord = generateHiddenWord(wordToGuess);
         System.out.println("Welcome to Hangman");
         System.out.println("Guess the word:"+ hiddenWord);
-        final int MAX_INCORRECT_GUESSES=6;
+        final int MAX_INCORRECT_GUESSES=7;
         int incorrectGuesses=0;
         while (incorrectGuesses<MAX_INCORRECT_GUESSES && hiddenWord.contains("_")){
             System.out.println("Enter a letter: ");
